@@ -5,7 +5,7 @@ import json
 
 class TestLoanCalculator(unittest.TestCase):
 
-    url = "https://web-loan-application-test.bigbank.se/api/v1/loan/calculate"
+    url = "/calculate"
 
     def test_monthly_rate_with_amount_85000(self):
 
